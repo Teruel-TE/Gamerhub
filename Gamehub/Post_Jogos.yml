@@ -1,17 +1,17 @@
 info:
-  name: post estudio
+  name: Post_Jogos
   type: http
-  seq: 5
 
 http:
   method: POST
-  url: http://localhost:3000/estudios
+  url: http://localhost:3000/jogos
   body:
     type: json
     data: |-
       {
-        "nome": "Bldep games",
-        "pais": "barsil"
+        "titulo": "shalldiver",
+        "ano_lancamento": 2025,
+        "estudio_id": 1
       }
   auth: inherit
 

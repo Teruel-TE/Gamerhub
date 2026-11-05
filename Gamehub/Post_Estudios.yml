@@ -1,7 +1,6 @@
 info:
-  name: post jogos
+  name: Post_Estudios
   type: http
-  seq: 6
 
 http:
   method: POST
@@ -10,9 +9,8 @@ http:
     type: json
     data: |-
       {
-        "titulo": "Penumbra",
-        "ano_lancamento": 2024,
-        "estudio_id": 1
+        "nome": "Bldep games",
+        "pais": "barsil"
       }
   auth: inherit
 

@@ -1,10 +1,10 @@
 info:
-  name: delete
+  name: Del_Jogadores
   type: http
 
 http:
   method: DELETE
-  url: http://localhost:3000/estudios
+  url: http://localhost:3000/jogadores/2
   auth: inherit
 
 settings:

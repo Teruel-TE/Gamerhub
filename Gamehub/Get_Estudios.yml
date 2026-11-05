@@ -1,18 +1,10 @@
 info:
-  name: put estudio
+  name: Get_Estudios
   type: http
-  seq: 7
 
 http:
-  method: PUT
+  method: GET
   url: http://localhost:3000/estudios
-  body:
-    type: json
-    data: |-
-      {
-        "nome": "Bldep games",
-        "pais": "Brasil"
-      }
   auth: inherit
 
 settings:

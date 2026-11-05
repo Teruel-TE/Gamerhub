@@ -1,7 +1,6 @@
 info:
-  name: put jogadores
+  name: Put_Jogador
   type: http
-  seq: 1
 
 http:
   method: PUT
@@ -10,9 +9,9 @@ http:
     type: json
     data: |-
       {
-        "nome": "Iago Damazio Amorim",
-        "email": "iagobldep@gmail.com",
-        "nickname": "iagobldep"
+        "nome": "Ryan coelho naza",
+        "email": "ADMdaSilva@gmail.com",
+        "nickname": "RyanQQQ"
       }
   auth: inherit
 

@@ -1,18 +1,16 @@
 info:
-  name: put jogos
+  name: Put_Estudios
   type: http
-  seq: 8
 
 http:
   method: PUT
-  url: http://localhost:3000/estudios
+  url: http://localhost:3000/estudios/1
   body:
     type: json
     data: |-
       {
-        "titulo": "Penumbra",
-        "ano_lancamento": 2025,
-        "estudio_id": 1
+        "nome": "Bora games",
+        "pais": "Brasil"
       }
   auth: inherit
 

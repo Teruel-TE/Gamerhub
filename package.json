@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Iagobldep/API-GameHub.git"
+    "url": "https://github.com/Teruel-TE/Gamerhub"
   },
   "keywords": [],
-  "author": "iagobldep",
+  "author": "Teruel",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/Iagobldep/API-GameHub/issues"
+    "url": "https://github.com/Teruel-TE/Gamerhub/issues"
   },
-  "homepage": "https://github.com/Iagobldep/API-GameHub#readme",
+  "homepage": "https://github.com/Teruel-TE/Gamerhub#readme",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^18.0.9",

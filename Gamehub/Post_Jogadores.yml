@@ -1,7 +1,6 @@
 info:
-  name: post jogadores
+  name: Post_Jogadores
   type: http
-  seq: 1
 
 http:
   method: POST
@@ -10,9 +9,9 @@ http:
     type: json
     data: |-
       {
-        "nome": "Iago Damazio Amorim",
-        "email": "iagobldepaaaaaaaaaaaa@gmail.com",
-        "nickname": "iagobldep"
+        "nome": "Teruelado",
+        "email": "Toninhoarqnimigo@gmail.com",
+        "nickname": "TTeruel"
       }
   auth: inherit
 
